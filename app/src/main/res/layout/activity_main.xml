@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:background="#F3F6FB">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JOBCONNECT 2026"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#173B70"
+        android:gravity="center"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pendaftaran Bursa Kerja"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:gravity="center"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Lengkap"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama lengkap"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:backgroundTint="#173B70"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Usia"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:textSize="14sp"
+        android:layout_marginTop="18dp"/>
+
+    <EditText
+        android:id="@+id/etUsia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan usia"
+        android:inputType="number"
+        android:padding="12dp"
+        android:backgroundTint="#173B70"/>
+
+    <Button
+        android:id="@+id/btnKirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kirim Data ke Form"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#173B70"/>
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buka Info Event"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#2584C7"/>
+
+</LinearLayout>
